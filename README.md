@@ -10,7 +10,7 @@ I thought were cool or seemed interesting to do by myself.
 ## 🎯 The goal
 
 To learn how to do things that I had no idea how they were made before trying to replicate them by myself.
-  
+
 <br>
 
 ## 📚 The projects
