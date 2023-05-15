@@ -12,6 +12,7 @@ I thought were cool or seemed interesting to do by myself.
 To learn how to do things that I had no idea how they were made before trying to replicate them by myself.
   
 Being proud of how a project looks after finishing it and not needing to think about how to perfect it afterwards.
+  
 <br>
 
 ## 📚 The projects
