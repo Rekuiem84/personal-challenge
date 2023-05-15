@@ -10,14 +10,15 @@ I thought were cool or seemed interesting to do by myself.
 ## 🎯 The goal
 
 To learn how to do things that I had no idea how they were made before trying to replicate them by myself.
+  
 <br>
 
-## 📚 The challenges
+## 📚 The projects
 
 <table>
   <thead>
     <tr>
-      <th align="center">Challenge</th>
+      <th align="center">Project</th>
       <th>Name</th>
       <th>See the repo</th>
       <th>See the demo</th>
