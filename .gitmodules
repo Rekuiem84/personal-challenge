@@ -1,3 +1,6 @@
 [submodule "01 - Social Media Icons/social-media-icons"]
 	path = 01 - Social Media Icons/social-media-icons
 	url = https://github.com/Rekuiem84/social-media-icons
+[submodule "02 - Futuristic Cards/futuristic-cards"]
+	path = 02 - Futuristic Cards/futuristic-cards
+	url = https://github.com/Rekuiem84/futuristic-cards/
