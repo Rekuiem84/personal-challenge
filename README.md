@@ -1,4 +1,4 @@
-<h2 align="center"> Personal challenge to improve my understanding of HTML/CSS/JavaScript<h2>
+<h2 align="center"> Personal challenge to improve my understanding of HTML / CSS / JavaScript<h2>
 
 ## 🔖 About this
 
