@@ -4,3 +4,6 @@
 [submodule "02 - Futuristic Cards/futuristic-cards"]
 	path = 02 - Futuristic Cards/futuristic-cards
 	url = https://github.com/Rekuiem84/futuristic-cards/
+[submodule "03 - Fullscreen Navbar/fullscreen-navbar"]
+	path = 03 - Fullscreen Navbar/fullscreen-navbar
+	url = https://github.com/Rekuiem84/fullscreen-navbar
