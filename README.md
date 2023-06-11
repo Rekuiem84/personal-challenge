@@ -24,7 +24,7 @@ I thought were cool or seemed interesting to replicate by myself.
     <tr>
       <td>01</td>
       <td>Social Media Icons</td>
-      <td>07/05/23</td>
+      <td>08/05/23</td>
       <td><a href="https://github.com/Rekuiem84/social-media-icons/">Repo</a></td>
       <th><a href="https://rekuiem84.github.io/social-media-icons/">Demo</a></th>
       <th><a href="https://github.com/Nahuel61920/50-Proyectos-en-50-dias/tree/main/14%20Claymorphism%20icon">The original</a></th>
@@ -32,7 +32,7 @@ I thought were cool or seemed interesting to replicate by myself.
     <tr>
       <td>02</td>
       <td>Futuristic Cards</td>
-      <td>02/06/23</td>
+      <td>01/06/23</td>
       <td><a href="https://github.com/Rekuiem84/futuristic-cards/">Repo</a></td>
       <th><a href="https://rekuiem84.github.io/futuristic-cards/">Demo</a></th>
       <th><a href="https://www.youtube.com/watch?v=wxT9JKogCE8">The original</a></th>
