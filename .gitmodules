@@ -7,3 +7,6 @@
 [submodule "03 - Fullscreen Navbar/fullscreen-navbar"]
 	path = 03 - Fullscreen Navbar/fullscreen-navbar
 	url = https://github.com/Rekuiem84/fullscreen-navbar
+[submodule "04 - Random Color Generator/random-color-generator"]
+	path = 04 - Random Color Generator/random-color-generator
+	url = https://github.com/Rekuiem84/random-color-generator
