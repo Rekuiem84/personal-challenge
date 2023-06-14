@@ -45,5 +45,12 @@ I thought were cool or seemed interesting to replicate by myself.
       <th><a href="https://rekuiem84.github.io/fullscreen-navbar/">Demo</a></th>
       <th><a href="https://www.instagram.com/p/Co96EaiDfAL/?igshid=MzRlODBiNWFlZA==">The original</a></th>
     </tr>
+    <tr>
+      <td>04</td>
+      <td>Random Color Generator</td>
+      <td>14/06/23</td>
+      <td><a href="https://github.com/Rekuiem84/random-color-generator/">Repo</a></td>
+      <th><a href="https://rekuiem84.github.io/random-color-generator/">Demo</a></th>
+    </tr>
   </tbody>
 </table>
