@@ -10,3 +10,15 @@
 [submodule "04 - Random Color Generator/random-color-generator"]
 	path = 04 - Random Color Generator/random-color-generator
 	url = https://github.com/Rekuiem84/random-color-generator
+[submodule "social-media-icons"]
+	path = social-media-icons
+	url = https://github.com/Rekuiem84/social-media-icons/
+[submodule "futuristic-cards"]
+	path = futuristic-cards
+	url = https://github.com/Rekuiem84/futuristic-cards/
+[submodule "fullscreen-navbar"]
+	path = fullscreen-navbar
+	url = https://github.com/Rekuiem84/fullscreen-navbar/
+[submodule "random-color-generator"]
+	path = random-color-generator
+	url = https://github.com/Rekuiem84/random-color-generator/
