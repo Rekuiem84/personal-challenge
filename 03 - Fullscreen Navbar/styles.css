@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	overflow: hidden;
+}
+.nav {
+	min-height: 100vh;
+	min-height: 100dvh;
+	display: grid;
+	place-items: center;
+	position: relative;
+}
+.nav ul {
+	list-style: none;
+	text-align: center;
+}
+.nav__link {
+	display: inline-block;
+	color: #111;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 0rem 2rem;
+	font-size: clamp(3rem, 5vw, 5rem);
+	transition: 0.2s ease-in-out;
+	border-radius: 10px;
+}
+.nav__link:is(:hover, :focus) {
+	background-color: #ffffff;
+}
+.nav__link:focus {
+	outline: none;
+}
+.nav__link::before,
+.nav__link::after {
+	content: attr(data-text);
+}
+.nav__link::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	display: grid;
+	place-items: center;
+	text-align: center;
+	font-weight: 900;
+	color: rgba(0 0 0 / 0);
+	font-size: clamp(10rem, 18vw, 20rem);
+	text-transform: uppercase;
+	letter-spacing: 500px;
+	transition: all 0.25s ease-in-out, letter-spacing 0.4s ease-in-out;
+}
+
+.nav__link:is(:hover, :focus)::after {
+	color: rgba(0 0 0 / 0.2);
+	letter-spacing: 10px;
+	background: var(--color-bg);
+	box-shadow: 0 0 0 100vmax var(--color-bg);
+}
+.nav li:nth-child(1) {
+	--color-bg: hsl(0 72% 65%);
+}
+.nav li:nth-child(2) {
+	--color-bg: hsl(220 72% 65%);
+}
+.nav li:nth-child(3) {
+	--color-bg: hsl(300 72% 65%);
+}
+.nav li:nth-child(4) {
+	--color-bg: hsl(40 72% 65%);
+}
+.nav li:nth-child(5) {
+	--color-bg: hsl(110 72% 65%);
+}
+
+@media screen and (max-width: 500px) {
+	.nav__link::after {
+		writing-mode: vertical-lr;
+	}
+}
