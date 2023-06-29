@@ -53,5 +53,13 @@ I thought were cool or seemed interesting to replicate by myself.
       <th><a href="https://rekuiem84.github.io/random-color-generator/">Demo</a></th>
       <th></th>
     </tr>
+    <tr>
+      <td>05</td>
+      <td>Orbiting Navbar</td>
+      <td>24/06/23</td>
+      <td><a href="https://github.com/Rekuiem84/orbiting-navbar/">Repo</a></td>
+      <th><a href="https://rekuiem84.github.io/orbiting-navbar/">Demo</a></th>
+      <th></th>
+    </tr>
   </tbody>
 </table>
