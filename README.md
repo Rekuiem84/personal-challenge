@@ -61,5 +61,13 @@ I thought were cool or seemed interesting to replicate by myself.
       <th><a href="https://rekuiem84.github.io/orbiting-navbar/">Demo</a></th>
       <th></th>
     </tr>
+    <tr>
+      <td>06</td>
+      <td>Custom Cursor</td>
+      <td>07/07/23</td>
+      <td><a href="https://github.com/Rekuiem84/custom-cursor/">Repo</a></td>
+      <th><a href="https://rekuiem84.github.io/custom-cursor/">Demo</a></th>
+      <th></th>
+    </tr>
   </tbody>
 </table>
