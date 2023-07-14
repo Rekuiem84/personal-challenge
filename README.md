@@ -69,5 +69,13 @@ I thought were cool or seemed interesting to replicate by myself.
       <th><a href="https://rekuiem84.github.io/custom-cursor/">Demo</a></th>
       <th></th>
     </tr>
+    <tr>
+      <td>07</td>
+      <td>Key Combo Navbar</td>
+      <td>13/07/23</td>
+      <td><a href="https://github.com/Rekuiem84/key-combo-navbar/">Repo</a></td>
+      <th><a href="https://rekuiem84.github.io/key-combo-navbar/">Demo</a></th>
+      <th></th>
+    </tr>
   </tbody>
 </table>
