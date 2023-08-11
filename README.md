@@ -77,5 +77,13 @@ I thought were cool or seemed interesting to replicate by myself.
       <th><a href="https://rekuiem84.github.io/key-combo-navbar/">Demo</a></th>
       <th></th>
     </tr>
+    <tr>
+      <td>08</td>
+      <td>Timeline templates</td>
+      <td>11/08/23</td>
+      <td><a href="https://github.com/Rekuiem84/template-timeline/">Repo</a></td>
+      <th><a href="https://rekuiem84.github.io/template-timeline/">Demo</a></th>
+      <th></th>
+    </tr>
   </tbody>
 </table>
