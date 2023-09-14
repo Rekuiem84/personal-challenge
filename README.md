@@ -85,5 +85,13 @@ I thought were cool or seemed interesting to replicate by myself.
       <th><a href="https://rekuiem84.github.io/template-timeline/">Demo</a></th>
       <th></th>
     </tr>
+    <tr>
+      <td>09</td>
+      <td>Rock Paper Scissors</td>
+      <td>12/09/23</td>
+      <td><a href="https://github.com/Rekuiem84/rock-paper-scissors/">Repo</a></td>
+      <th><a href="https://rekuiem84.github.io/rock-paper-scissors/">Demo</a></th>
+      <th></th>
+    </tr>
   </tbody>
 </table>
