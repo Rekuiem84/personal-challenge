@@ -1,4 +1,4 @@
-<h2 align="center"> Personal challenge to improve my understanding of HTML / CSS / JavaScript<h2>
+<h1 align="center"> Personal challenge to improve my understanding of HTML / CSS / JavaScript</h1>
 
 ## 🔖 About this
 
@@ -92,6 +92,14 @@ I thought were cool or seemed interesting to replicate by myself.
       <td><a href="https://github.com/Rekuiem84/rock-paper-scissors/">Repo</a></td>
       <th><a href="https://rekuiem84.github.io/rock-paper-scissors/">Demo</a></th>
       <th></th>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Colorful Cards</td>
+      <td>27/09/23</td>
+      <td><a href="https://github.com/Rekuiem84/colorful-cards/">Repo</a></td>
+      <th><a href="https://rekuiem84.github.io/colorful-cards/">Demo</a></th>
+      <th><a href="https://codepen.io/wikyware-net/pen/dyKPRxQ">The original</a></th>
     </tr>
   </tbody>
 </table>
