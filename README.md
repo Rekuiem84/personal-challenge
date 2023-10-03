@@ -101,5 +101,13 @@ I thought were cool or seemed interesting to replicate by myself.
       <th><a href="https://rekuiem84.github.io/colorful-cards/">Demo</a></th>
       <th><a href="https://codepen.io/wikyware-net/pen/dyKPRxQ">The original</a></th>
     </tr>
+    <tr>
+      <td>11</td>
+      <td>3D Cards</td>
+      <td>02/10/23</td>
+      <td><a href="https://github.com/Rekuiem84/3d-cards">Repo</a></td>
+      <th><a href="https://rekuiem84.github.io/3d-cards/">Demo</a></th>
+      <th><a href="https://codepen.io/designfenix/pen/RwKPapa">The original</a></th>
+    </tr>
   </tbody>
 </table>
