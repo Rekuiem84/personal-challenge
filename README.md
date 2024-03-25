@@ -109,5 +109,13 @@ I thought were cool or seemed interesting to replicate by myself.
       <th><a href="https://rekuiem84.github.io/3d-cards/">Demo</a></th>
       <th><a href="https://codepen.io/designfenix/pen/RwKPapa">The original</a></th>
     </tr>
+    <tr>
+      <td>12</td>
+      <td>Glowing Border</td>
+      <td>25/03/24</td>
+      <td><a href="https://github.com/Rekuiem84/glowing-border">Repo</a></td>
+      <th><a href="https://rekuiem84.github.io/glowing-border/">Demo</a></th>
+      <th></th>
+    </tr>
   </tbody>
 </table>
