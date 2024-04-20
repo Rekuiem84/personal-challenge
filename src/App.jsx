@@ -1,35 +1,67 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { useState, useEffect } from "react";
+import Card from "./assets/components/Card";
 
-function App() {
-  const [count, setCount] = useState(0)
+const owner = "Rekuiem84";
+const repo = "personal-challenge";
+const pathToFile = "README.md";
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+async function fetchContent(owner, repo, pathToFile) {
+	// Retourne explicitement la promesse créée par fetch
+	try {
+		const response = await fetch(
+			`https://api.github.com/repos/${owner}/${repo}/contents/${pathToFile}`
+		);
+		const data = await response.json();
+		const fileContent = atob(data.content);
+		const parser = new DOMParser();
+		const doc = parser.parseFromString(fileContent, "text/html");
+		const aTags = Array.from(doc.querySelectorAll("a"));
+		const demoLinks = aTags.filter(
+			(a) => a.textContent.trim().toUpperCase() === "DEMO"
+		);
+		let linksData = [];
+		demoLinks.forEach((link) => {
+			// Enlève les slashs de l'URL, puis découpe en tableau
+			const urlParts = link.href.split("/").join(" ").trim().split(" ");
+			link.textContent = urlParts[urlParts.length - 1].split("-").join(" ");
+			linksData.push([
+				link.textContent,
+				link.href,
+				urlParts[urlParts.length - 1],
+			]);
+		});
+		return linksData;
+	} catch (error) {
+		return console.error(error);
+	}
 }
 
-export default App
+function App() {
+	const [linksData, setDemoLinks] = useState([]);
+
+	useEffect(() => {
+		fetchContent(owner, repo, pathToFile).then((links) => {
+			setDemoLinks(links);
+		});
+	}, []);
+
+	return (
+		<>
+			<h1>List of small projects that I&apos;ve completed&nbsp;:</h1>
+			<div className="challenges">
+				{linksData.map((link, index) => (
+					<Card
+						key={index}
+						index={index}
+						nom={link[0]}
+						href={link[1]}
+						path={link[2]}
+					/>
+				))}
+			</div>
+		</>
+	);
+}
+
+export default App;
