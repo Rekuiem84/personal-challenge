@@ -1,16 +1,13 @@
 {
-	"name": "homepage-challenges",
+	"name": "personal-challenges",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "http://rekuiem84.github.io/personal-challenge",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
 		"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-		"preview": "vite preview",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"preview": "vite preview"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
