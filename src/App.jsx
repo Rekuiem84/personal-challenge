@@ -47,11 +47,20 @@ function App() {
 	}, []);
 
 	return (
-		<div className="challenges">
-			{linksData.map((link, index) => (
-				<Card key={index} nom={link[0]} href={link[1]} path={link[2]} />
-			))}
-		</div>
+		<>
+			<h1>List of small projects that I&apos;ve completed&nbsp;:</h1>
+			<div className="challenges">
+				{linksData.map((link, index) => (
+					<Card
+						key={index}
+						index={index}
+						nom={link[0]}
+						href={link[1]}
+						path={link[2]}
+					/>
+				))}
+			</div>
+		</>
 	);
 }
 
