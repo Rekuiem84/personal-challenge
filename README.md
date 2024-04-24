@@ -116,5 +116,13 @@ This is a personal challenge to replicate small HTML / CSS / JavaScript projects
       <th><a href="https://rekuiem84.github.io/glowing-border/">Demo</a></th>
       <th></th>
     </tr>
+    <tr>
+      <td>13</td>
+      <td>Card Tilt</td>
+      <td>24/04/24</td>
+      <td><a href="https://github.com/Rekuiem84/card-tilt">Repo</a></td>
+      <th><a href="https://rekuiem84.github.io/card-tilt/">Demo</a></th>
+      <th></th>
+    </tr>
   </tbody>
 </table>
