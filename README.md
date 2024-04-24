@@ -1,9 +1,8 @@
-<h1 align="center"> Personal challenge to improve my understanding of HTML / CSS / JavaScript</h1>
+<h1 align="center"> Projects to get better at Frontend development</h1>
 
-## 🔖 About this
+## 🔖 About
 
-This is a personal challenge to replicate small HTML / CSS / JavaScript projects I've seen on various social media that
-I thought were cool or seemed interesting to replicate by myself.
+This is a personal challenge to replicate small HTML / CSS / JavaScript projects that I've seen on various social media, or projects that I thought were cool or seemed interesting to replicate by myself.
 
 <br>
 
